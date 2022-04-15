@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class ContactsPage extends BasePage {
-
+    //this is to check whether intelij save the changes automatically
     @FindBy(css=".input-widget")
     public WebElement pageNumber;
 

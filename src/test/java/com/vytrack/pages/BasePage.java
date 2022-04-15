@@ -22,7 +22,7 @@ public abstract class  BasePage {
     @FindBy(css = "div[class='loader-mask shown']")
     @CacheLookup
     protected WebElement loaderMask;
-
+    // Iam adding note notes to the line 25
     @FindBy(css = "h1[class='oro-subtitle']")
     public WebElement pageSubTitle;
 
