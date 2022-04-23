@@ -9,6 +9,7 @@ public class ContactsPage extends BasePage {
 
     @FindBy(css=".input-widget")
     public WebElement pageNumber;
+    ///safljhasj
 
 
     public WebElement getContactEmail(String email){
