@@ -18,7 +18,7 @@ public abstract class  BasePage {
     //note from featureBranch
     @FindBy(css = "span.title-level-1")
     public List<WebElement> menuOptions;
-
+//Enes Satin
     @FindBy(css = "div[class='loader-mask shown']")
     @CacheLookup
     protected WebElement loaderMask;
